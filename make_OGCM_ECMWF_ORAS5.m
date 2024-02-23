@@ -89,7 +89,7 @@ if Download_data==1
 %
 % Get the OGCM grid 
 % 
-nc=netcdf([OGCM_dir,OGCM_prefix,'Y',num2str(Ymin),'M',num2str(Mmin),'.cdf']);
+nc=netcdf([OGCM_dir,OGCM_prefix,'Y',num2str(Ymin),'M',num2str(Mmin),'.nc']);
 lonT=nc{'lonT'}(:);
 latT=nc{'latT'}(:);
 lonU=nc{'lonU'}(:);
